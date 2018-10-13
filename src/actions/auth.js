@@ -5,6 +5,7 @@ import { ROOT_URL } from '../config';
 
 export function signUp(fields, success) {
     console.log(fields);
+    success()
     return function(dispatch) {
         // axios.post(`${ROOT_URL}/signUp`)
         //     .then(response => {
